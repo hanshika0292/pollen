@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies (at any depth)
+node_modules/
+
+# next.js
+.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files: real values never get committed; the example stays
+.env*
+!.env.example
+
+# WhatsApp session / auth state (any WhatsApp Web client) — never commit
+whatsapp_auth_info/
+auth_info*/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# credentials and keys
+keys/
+*.pem
+
+# local editor / agent state
+.DS_Store
+.claude/
+.cursor/
