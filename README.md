@@ -1,5 +1,6 @@
 # Pollen: AI email and WhatsApp marketing for small businesses (multi-tenant Next.js app)
 
+[![CI](https://github.com/hanshika0292/pollen/actions/workflows/ci.yml/badge.svg)](https://github.com/hanshika0292/pollen/actions/workflows/ci.yml)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Next.js 16](https://img.shields.io/badge/Next.js-16-black.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6.svg)
